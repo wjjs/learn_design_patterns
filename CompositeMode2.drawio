@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" pages="2">
+<mxfile host="app.diagrams.net" pages="3">
   <diagram name="第 1 页" id="Yv1wwWHD8x5V3KSzvh56">
     <mxGraphModel dx="1414" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -119,6 +119,71 @@
         </mxCell>
         <mxCell id="nLFJpHcK2jFVJfqGCOlL-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="装饰模式" vertex="1">
           <mxGeometry height="30" width="146" x="440" y="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="3Pq2x4qX300uJ95qiRqf" name="第 3 页">
+    <mxGraphModel dx="1414" dy="1920" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n5rQMcGYqRClIcEN11aP-3" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="HotelSystem" vertex="1">
+          <mxGeometry height="90" width="310" x="390" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="n5rQMcGYqRClIcEN11aP-4" parent="n5rQMcGYqRClIcEN11aP-3" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="310" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="n5rQMcGYqRClIcEN11aP-5" parent="n5rQMcGYqRClIcEN11aP-3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Reserve(hotelName: string): void" vertex="1">
+          <mxGeometry height="56" width="310" y="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n5rQMcGYqRClIcEN11aP-6" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="FlightSystem" vertex="1">
+          <mxGeometry height="70" width="310" x="45" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="n5rQMcGYqRClIcEN11aP-7" parent="n5rQMcGYqRClIcEN11aP-6" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="310" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="n5rQMcGYqRClIcEN11aP-8" parent="n5rQMcGYqRClIcEN11aP-6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ BookTickets(destinationCity: string): void" vertex="1">
+          <mxGeometry height="36" width="310" y="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n5rQMcGYqRClIcEN11aP-11" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="RestaurantSystem" vertex="1">
+          <mxGeometry height="84" width="220" x="750" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="n5rQMcGYqRClIcEN11aP-13" parent="n5rQMcGYqRClIcEN11aP-11" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="220" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="n5rQMcGYqRClIcEN11aP-14" parent="n5rQMcGYqRClIcEN11aP-11" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Book(restaurantName: string)" vertex="1">
+          <mxGeometry height="50" width="220" y="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n5rQMcGYqRClIcEN11aP-19" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="TravelFacade" vertex="1">
+          <mxGeometry height="84" width="510" x="285" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n5rQMcGYqRClIcEN11aP-20" parent="n5rQMcGYqRClIcEN11aP-19" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="510" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="n5rQMcGYqRClIcEN11aP-21" parent="n5rQMcGYqRClIcEN11aP-19" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ bookTravelPackage(citiName: string, hotelName: string, restaurantName: string): void" vertex="1">
+          <mxGeometry height="50" width="510" y="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n5rQMcGYqRClIcEN11aP-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;外观模式&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="146" x="467" y="-140" as="geometry" />
+        </mxCell>
+        <mxCell id="n5rQMcGYqRClIcEN11aP-30" edge="1" parent="1" source="n5rQMcGYqRClIcEN11aP-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;dashed=1;" target="n5rQMcGYqRClIcEN11aP-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n5rQMcGYqRClIcEN11aP-23" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Client" vertex="1">
+          <mxGeometry height="34" width="220" x="430" y="-70" as="geometry" />
+        </mxCell>
+        <mxCell id="n5rQMcGYqRClIcEN11aP-24" parent="n5rQMcGYqRClIcEN11aP-23" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="220" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="n5rQMcGYqRClIcEN11aP-31" edge="1" parent="1" source="n5rQMcGYqRClIcEN11aP-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="n5rQMcGYqRClIcEN11aP-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n5rQMcGYqRClIcEN11aP-32" edge="1" parent="1" source="n5rQMcGYqRClIcEN11aP-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.481;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;" target="n5rQMcGYqRClIcEN11aP-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n5rQMcGYqRClIcEN11aP-33" edge="1" parent="1" source="n5rQMcGYqRClIcEN11aP-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="n5rQMcGYqRClIcEN11aP-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
